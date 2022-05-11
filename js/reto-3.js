@@ -1,0 +1,2 @@
+let cursos = ["Marketing", "Programación", "Desarrollo Personal", "Empresas", "IA", "Hacking"];
+alert("Platzi cuenta con cursos de : \n"+"-"+cursos[0]+"\n-"+cursos[1]+"\n-"+cursos[2]+"\n-"+cursos[3]+"\n-"+cursos[4]+"\n-"+cursos[5]);
