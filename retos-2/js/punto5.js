@@ -1,13 +1,11 @@
-a = Number(prompt("Ingrese un valor"))
-let rta
-switch (a){
-    case a>0:
-        rta = "Positivo"
-        break;
-    case a<0:
-        rta = "Negativo"
-        break;
-    case 0:
-        rta = "Nulo"
+a = Number(prompt("Ingrese un valor"));
+if (a>0){
+    rta=("Positivo");
 }
-alert(rta)
+else if (a==0){
+    rta=("Nulo");
+}
+else{
+    rta=("Negativo");
+}
+alert(`${a} es un numero ${rta}`);
